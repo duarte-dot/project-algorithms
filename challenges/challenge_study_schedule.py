@@ -2,7 +2,9 @@ def study_schedule(permanence_period, target_time):
     if not isinstance(target_time, int):
         return None
 
-    if not all(isinstance(p, tuple) and len(p) == 2 for p in permanence_period):
+    if not all(
+              isinstance(p, tuple) and len(p) == 2 for p in permanence_period
+              ):
         return None
 
     arrivals, departures = set(), set()
@@ -13,8 +15,9 @@ def study_schedule(permanence_period, target_time):
         arrivals.add(arrive)
         departures.add(depart)
 
-    counter = sum(1 for arrive, depart in permanence_period if arrive <= target_time <= depart)
-    
+    counter = sum(1 for arrive, depart in permanence_period
+                  if arrive <= target_time <= depart)
+
     return counter
 
 
