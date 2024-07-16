@@ -1,26 +1,27 @@
-# Projeto Algorithms
+# Algorithms Project
 
-Neste repositório, você encontrará a resolução de diversos desafios de programação. Cada desafio aborda um problema específico e demonstra uma solução em Python. Os desafios têm como objetivo exercitar habilidades como lógica de programação, interpretação de problemas e otimização de algoritmos.
+In this repository, you will find solutions to various programming challenges. Each challenge addresses a specific problem and demonstrates a solution in Python. The challenges aim to exercise skills such as programming logic, problem interpretation, and algorithm optimization.
 
-## Desafios Resolvidos
-Aqui estão os desafios desenvolvidos:
+## Challenges Solved
 
-### 1 - Número de Estudantes Estudando no Mesmo Horário (Algoritmo de Busca)
-Neste desafio, o objetivo é encontrar o horário com o maior número de estudantes acessando uma plataforma de estudo. Os horários de entrada e saída dos estudantes são registrados em uma lista de tuplas, e a solução utiliza uma abordagem de força bruta.
+Here are the challenges developed:
 
-### 2 - Criptografia de Inversões (Testes)
-Este desafio envolve a criação de testes para uma função de criptografia chamada encrypt_message.
+### 1 - Number of Students Studying at the Same Time (Search Algorithm)
+In this challenge, the goal is to find the time slot with the highest number of students accessing a study platform. Students' entry and exit times are recorded in a list of tuples, and the solution uses a brute-force approach.
 
-### 3 - Palíndromos (Recursividade)
-Neste desafio, foi desenvolvida uma função que determina se uma palavra é um palíndromo (uma palavra que se lê da mesma forma de trás para frente).
+### 2 - Inversion Cryptography (Testing)
+This challenge involves creating tests for a cryptography function called `encrypt_message`.
 
-### 4 - Anagramas (Algoritmo de Ordenação)
-Foi implementado um algoritmo que compara duas strings e verifica se são anagramas uma da outra. O algoritmo considera letras maiúsculas e minúsculas como iguais durante a comparação.
+### 3 - Palindromes (Recursion)
+In this challenge, a function was developed to determine if a word is a palindrome (a word that reads the same forwards and backwards) using recursion.
 
-### 5 - Encontrando Números Repetidos (Algoritmo de Busca)
-Neste desafio, o objetivo é encontrar um número duplicado em um array de números inteiros. A solução envolve ordenar o array e identificar o número duplicado.
+### 4 - Anagrams (Sorting Algorithm)
+An algorithm was implemented to compare two strings and determine if they are anagrams of each other. The algorithm considers uppercase and lowercase letters as equal during comparison.
 
-### 6 - Palíndromos (Iteratividade)
-Este desafio é uma variação do Desafio 3, onde foi determinado se uma palavra é um palíndromo, mas desta vez utilizando uma solução iterativa.
+### 5 - Finding Duplicate Numbers (Search Algorithm)
+In this challenge, the goal is to find a duplicate number in an array of integers. The solution involves sorting the array and identifying the duplicate number.
 
-Cada desafio possui sua própria pasta com o código fonte e, quando aplicável, testes unitários.
+### 6 - Palindromes (Iterative Approach)
+This challenge is a variation of Challenge 3, where it was determined if a word is a palindrome, but this time using an iterative solution.
+
+Each challenge has its own folder with source code and, where applicable, unit tests.
